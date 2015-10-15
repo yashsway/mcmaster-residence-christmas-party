@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <title>MacRez Room Assignments</title>
-    <meta name="description" content="McMaster Residence Room Assignment Checker">
-    <meta name="author" content="Yash Gopal">
+    <title>McMaster Children's Christmas Party</title>
+    <meta name="description" content="McMaster Children's Party">
+    <meta name="author" content="Yash Gopal, Rade Kuruc, HCS">
     <!-- Mobile Specific Metas-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Font -->
