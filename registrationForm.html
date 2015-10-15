@@ -1,0 +1,135 @@
+<div id="registrationForm">
+    <form class="grid-form" id="step1">
+        <center>
+            <h2>Step One</h2>
+        </center>
+        <fieldset>
+            <legend>Parent Details</legend>
+            <div data-row-span="2">
+                <div data-field-span="1">
+                    <label>First Name</label>
+                    <input type="text" id="fName">
+                </div>
+                <div data-field-span="1">
+                    <label>Last Name</label>
+                    <input type="text" id="lName">
+                </div>
+            </div>
+            <div data-row-span="3">
+                <div data-field-span="1">
+                    <label>Employee ID Number</label>
+                    <input type="text" id="empID">
+                </div>
+                <div data-field-span="1">
+                    <label>Department</label>
+                    <input type="text" id="dept">
+                </div>
+                <div data-field-span="1">
+                    <label>Email</label>
+                    <input type="email" id="email">
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    <form class="grid-form" id="step2">
+        <center>
+            <h2>Step Two</h2>
+        </center>
+        <fieldset>
+            <legend>More Parent Details</legend>
+            <div data-row-span="6">
+                <div data-field-span="3">
+                    <label>Address</label>
+                    <input type="text" id="addr">
+                </div>
+                <div data-field-span="1">
+                    <label>City</label>
+                    <input type="text" id="city">
+                </div>
+                <div data-field-span="1">
+                    <label>Province</label>
+                    <input type="text" id="prov">
+                </div>
+                <div data-field-span="1">
+                    <label>Postal Code</label>
+                    <input type="text" id="postal">
+                </div>
+            </div>
+            <div data-row-span="6">
+                <div data-field-span="3">
+                    <label>Phone Number</label>
+                    <input type="tel" id="phone">
+                </div>
+                <div data-field-span="3">
+                    <label>Number of Children</label>
+                    <select id="numChild">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    <form class="grid-form" id="step3">
+        <center>
+            <h2>Step Three</h2>
+        </center>
+        <fieldset>
+            <legend>Child Details</legend>
+            <div class="child-forms"></div>
+            <div id="child-form">
+                <h4>Child 1</h4>
+                <div data-row-span="4">
+                    <div data-field-span="2">
+                        <label>Name</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div data-field-span="1">
+                        <label>Gender</label>
+                        <select id="gender">
+                            <option value="M">Male</option>
+                            <option value="F">Female</option>
+                        </select>
+                    </div>
+                    <div data-field-span="1">
+                        <label>Age</label>
+                        <select id="age">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                        </select>
+                    </div>
+                </div>
+                <div data-row-span="4">
+                    <div data-field-span="4">
+                        <label>Meal Preference</label>
+                        <select id="meal">
+                            <option value="CN">Chicken Nuggets</option>
+                            <option value="CP">Cheese Pizza</option>
+                            <option value="CD">Corn Dog</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-success form-buttons" id="registrationForm-addChild">Add Child</button>
+        </fieldset>
+    </form>
+    <div class="content">
+        <div>
+            <button class="btn btn-default registrationFormNext" id="next1">Save & Next</button>
+            <button class="btn btn-danger" id="registrationForm-cancel">Cancel</button>
+        </div>
+    </div>
+</div>

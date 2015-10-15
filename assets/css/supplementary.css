@@ -1,0 +1,252 @@
+/* Put custom CSS here */
+body {
+    font-family: "Raleway";
+    overflow-x: hidden;
+    background: -webkit-linear-gradient(top,rgba(255,0,0,0) 20%,rgba(178,219,191,1));
+}
+.font1 {
+    font-family: 'Raleway', sans-serif;
+}
+.font2 {
+    font-family: 'Open Sans', sans-serif;
+}
+/* Centering Hack */
+.content {
+    margin: 0px auto;
+    display: table;
+}
+.content div {
+    display: table-cell;
+}
+.icons {
+    width: 50px;
+    height: auto;
+    margin: 2px;
+}
+.block {
+    width: 100%;
+    min-height: 400px;
+    box-shadow: 0px 3px 20px 2px #cdcdcd;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 10px;
+    background: #E6EBE0;
+}
+#map-push {
+    position: relative;
+    height: 20px;
+}
+#tagline {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+#tagline .icons {
+    padding-bottom: 7px;
+    border-bottom: 2px;
+    border-color: #cdcdcd;
+    border-style: solid;
+}
+#splash-header {
+    position: relative;
+    left: 50%;
+    margin-left: -194px;
+    top: 10%;
+    margin-top: -27px;
+}
+#footer {
+    overflow: hidden;
+    height: 100px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    z-index: 150;
+    margin-bottom: 0px;
+    width: 100%;
+    clear: both;
+    background-color: #7a003c;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.30);
+}
+#footer > p {
+    bottom: 0px;
+    color: white;
+    text-align: center;
+}
+#footer > #icons-wrapper {
+    margin-left: 48%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 20px;
+}
+#icons-wrapper > .icons {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+#icons-wrapper:first-child {
+    margin-top: 200px;
+}
+#details > p {
+    text-align: center;
+}
+#details > table {
+    width: 80%;
+    margin: 0px auto 0px 20px;
+    border: none;
+    border-style: hidden;
+    padding: 20px;
+}
+#details-list tbody tr td {
+    padding: 5px;
+    vertical-align: middle;
+    font-size: 19px;
+}
+#details-list img {
+    width: 40px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.gallery img {
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+}
+/*#details table tbody tr td  {
+    vertical-align: text-top;
+    font-size: 18px;
+}*/
+.time-block {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    height: auto;
+    margin: 5px auto;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.20);
+}
+.time-block.one {
+    background-color: #9B59B6;
+    margin-right: 5px;
+}
+.time-block.two {
+    background-color: #E67E22;
+    margin-left: 5px;
+}
+.time-block > p {
+    text-align: center;
+}
+.time-block #number {
+    color: white;
+}
+#registration > .time-block-wrapper > .time-block {
+    font-size: 18px;
+    display: inline-block;
+}
+#registration > .time-block-wrapper > .time-block > button {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+/*.time-block-wrapper {
+    position: relative;
+    margin-left: 30%;
+}*/
+#registration {
+    margin: 5px 20px;
+}
+#registration > p {
+    text-align: justify;
+}
+#registration > ul {
+    list-style: none;
+}
+#registration ul p {
+    display: inline;
+    font-size: 18px;
+    margin-left: 10px;
+}
+#registration > ul > li > .icons {
+    width: 50px;
+    height: 50px;
+}
+#registrationForm {
+    display: none;
+}
+#registrationForm > #step1,#step2,#step3 {
+    display: none;
+}
+#child-form {
+    display: none;
+}
+#registrationForm-next1 {
+    display: inline-block;
+    margin: 5px 5px 5px auto;
+}
+#registrationForm-cancel {
+    display: inline-block;
+    margin: 5px 5px 5px auto;
+}
+#registrationForm-addChild {
+    display: none;
+    margin-left: 45%;
+    margin-top: 5px;
+}
+#registrationHelper {
+    position: fixed;
+    z-index: 100;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #2C3E50;
+    opacity: 0.8;
+    clear: both;
+    display: none;
+}
+#registrationHelper > #eventDetails {
+    float: left;
+    vertical-align: middle;
+    font-size: 18px;
+    color: white;
+    margin: 5px 10px;
+}
+#registrationHelper > #runningTotal {
+    float: right;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #2ECC71;
+    margin: 5px 10px;
+}
+#confirmationForm {
+    margin: 0px 10px;
+    display: none;
+}
+#confirmationForm > hr:nth-of-type(1) {
+    border-top: 3px double #8c8b8b;
+}
+#confirmationForm > hr:nth-of-type(2) {
+    border-top: 1px dashed #8c8b8b;
+}
+#confirmationForm > #cost > tbody td {
+    padding: 2px 5px 5px 5px;
+}
+/*#confirmationForm > button {
+    display: inline-block;
+    margin: 0px auto 10px;
+}*/
+#confirmationForm > #help {
+    display: block;
+    color: #7a003c;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#confirmationForm-pay {
+    display: inline-block;
+    margin: 0px auto 10px auto;
+    margin: 0px auto 10px;
+}
+#confirmationForm-cancel {
+    display: inline-block;
+    margin: 0px auto 10px 5px;
+}

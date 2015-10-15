@@ -1,0 +1,40 @@
+<div id="confirmationForm">
+    <h1 id="title">Registration Confirmation</h1>
+    <hr/>
+    <h4><b>Event Details</b></h4>
+    <p class="font2">20th Annual McMaster Children's Party
+        <br/>Sport Hall, David Bradley Athletic Centre, 1280 E Main St Hamilton, ON L8S 4E8
+        <br/><span id="event"></span>
+    </p>
+    <h4><b>Ordered By</b></h4>
+    <p class="font2" id="orderBy"></p>
+    <h4><b>Children</b></h4>
+    <span class="font2" id="children"></span>
+    <h4><b>Order Total</b></h4>
+    <table class="font2" id="cost">
+        <tbody>
+            <tr>
+                <td>Total before tax:</td>
+                <td><span id="beforeTax"></span> CAD</td>
+            </tr>
+            <tr>
+                <td>Tax:</td>
+                <td><span id="tax"></span> CAD</td>
+            </tr>
+            <tr>
+                <td><b>You pay:</b>
+                </td>
+                <td><b><span id="afterTax"></span> CAD</b>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <hr/>
+    <div class="content">
+        <div>
+            <button class="btn btn-success" id="confirmationForm-pay">Confirm & Pay</button>
+            <button class="btn btn-default" id="confirmationForm-cancel">Cancel</button>
+        </div>
+    </div>
+    <p id="help">You will be redirected to a secure Moneris payment portal after you hit confirm. Once payment is successful we will show you another confirmation page with an option to print the confirmation or email yourself the details.</p>
+</div>
